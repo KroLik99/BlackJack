@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    min-height: 100%;
+    font-family: "Arial Black", "verdana";
+    color: #101b94;
+    text-align: center;
+}
+
+#black-jack{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 4em;
+}
+button{
+    color: #9198e5;
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+    min-width: 80%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 1em auto;
+    border-radius: 12px;
+    background: linear-gradient(pink, mistyrose);
+}
