@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1 id="black-jack">Black Jack</h1>
+
+<button id="firstCard-btn" onclick="chooseFirstCard()">CHOOSE YOUR FIRST CARD</button>
+<h2 id="firstCard-el">The first card is: </h2>
+
+<button id="secondCard-btn" onclick="chooseSecondCard()">CHOOSE YOUR SECOND CARD</button>
+<h2 id="secondCard-el">The second card is: </h2>
+
+<div id="thirdCard-div" hidden>
+    <button id="thirdCard-btn" onclick="chooseThirdCard()">CHOOSE YOUR THIRD CARD</button>
+    <h2 id="thirdCard-el" >The third card is: </h2>
+</div>
+
+<button id="play-btn" onclick="play()">PLAY</button>
+<button id="reset-btn" onclick="reset()">RESET</button>
+
+
+<script src="index.js"></script>
+</body>
+</html>
